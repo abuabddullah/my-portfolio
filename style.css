@@ -80,7 +80,13 @@ h1.name {
 }
 
 .rightBanner{
+    background: url(images/my-bg.png);
+    overflow: hidden;
+    border-radius: 50%;
+    height: 550px;
+    width: 550px;
     padding: 30px;
+    text-align: center;
 }
 
 /* <!-- Dream Big section start --> */
@@ -90,6 +96,16 @@ h1.name {
 }
 .rightDreamBig{
     padding-right: 50px !important;
+}
+.leftDreamBig{
+    background: url(images/my-bg2.png);
+    height: 410px;
+    width: 410px;
+    padding: 30px;
+}
+.leftDreamBig img{
+    width: 410px;
+    height: 410px;
 }
 
 /* experience section start */
