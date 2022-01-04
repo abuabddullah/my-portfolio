@@ -101,6 +101,7 @@ h1.name {
     box-shadow: ;
     box-shadow: 2px 2px 15px 7px rgba(0, 0, 0, 0.2);
     margin: 0 5%;
+    border-radius: 5px;
 }
 .proXp h1{
     font-size: 30px;
@@ -114,6 +115,15 @@ h1.name {
 }
 .proXp p{
     text-align: justify;
+}
+
+#proXp{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan) 1;
+}
+#babyXp{
+    border-left: 10px solid;
+    border-image: linear-gradient(#ff7052,#ffa500) 1;
 }
 
 /* footer start */
