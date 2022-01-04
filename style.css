@@ -32,6 +32,18 @@ h1 {
 p{
     color: #705d5d;
 }
+.btn{
+    line-height: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(to left,#ff7052,#ff9a75);
+    padding: 10px 40px;
+    border-radius: 3px;
+}
+section{
+    margin-bottom: 80px;
+}
 /* .flex-row{
     flex-direction: row;
 } */
@@ -54,16 +66,16 @@ h1.name {
 .leftBanner p{
     text-align: justify;
 }
-.btn{
-    line-height: 80px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #fff;
-    background: linear-gradient(to left,#ff7052,#ff9a75);
-    padding: 10px 40px;
-    border-radius: 3px;
-}
 
 .rightBanner{
     padding: 30px;
+}
+
+/* <!-- Dream Big section start --> */
+
+.dreamBig{
+    background: no-repeat right url(images/dream-bg.png) ;
+}
+.rightDreamBig{
+    padding-right: 50px !important;
 }
