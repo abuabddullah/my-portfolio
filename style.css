@@ -44,6 +44,18 @@ p{
 section{
     margin-bottom: 80px;
 }
+.text-center{
+    text-align: center;
+}
+hr{
+    width: 10%;
+    border: 1px solid #ff9a75;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.lh-normal{
+    line-height: inherit;
+}
 /* .flex-row{
     flex-direction: row;
 } */
@@ -79,3 +91,29 @@ h1.name {
 .rightDreamBig{
     padding-right: 50px !important;
 }
+
+/* experience section start */
+.experiences{    
+    background: no-repeat center left url(images/exp-bg.png) ;
+}
+.proXp {
+    padding: 40px;
+    box-shadow: ;
+    box-shadow: 2px 2px 15px 7px rgba(0, 0, 0, 0.2);
+    margin: 0 5%;
+}
+.proXp h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: inherit;
+    word-spacing: inherit;
+    letter-spacing: normal;
+}
+.proXp h3{
+    color: #ffa510;
+}
+.proXp p{
+    text-align: justify;
+}
+
+/* footer start */
