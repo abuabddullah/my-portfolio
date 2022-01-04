@@ -3,10 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 a{
     text-decoration: none;
 }
 img{
     max-width: 100%;
 }
+.container{
+    width: 1200px;
+    margin: auto;
+}
+h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-weight: 700;
+    line-height: 120px;
+}
+.w-50{
+    width: 50%;
+}
+.d-flex{
+    display: flex;
+}
+p{
+    color: #705d5d;
+}
+/* .flex-row{
+    flex-direction: row;
+} */
 /* banner section start */
+.banner{
+    background: no-repeat url(images/top-banner.png) ;
+}
+h1 span{
+    color: #ffa500
+}
+h3{
+    line-height: 50px;
+}
+.leftBanner{
+    padding: 30px;
+}
+h1.name {
+    font-size: 70px;
+}
+.leftBanner p{
+    text-align: justify;
+}
+.btn{
+    line-height: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(to left,#ff7052,#ff9a75);
+    padding: 10px 40px;
+    border-radius: 3px;
+}
+
+.rightBanner{
+    padding: 30px;
+}
